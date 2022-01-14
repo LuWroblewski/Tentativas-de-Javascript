@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TabelaIMC</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Tabela IMC</h1>
+    <p>
+      <h3>&emsp; IMC &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Resultado</h3> 
+    </p>
+    <p>
+      Menos do que 18,5 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; Abaixo do peso
+    </p>
+    <p>
+      Entre 18,5 e 24,9 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; Peso normal
+    </p>
+    <p>
+      Entre 25 e 29,9 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;  Sobrepeso
+    </p>
+    <p>
+      Entre 30 e 34,9 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Obesidade grau 1
+    </p>
+    <p>
+      Entre 35 e 39,9 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Obesidade grau 2
+    </p>    
+    <p>
+      Mais do que 40 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Obesidade grau 3
+    </p>
+  
+    <div data-tooltip="Peso coloque números inteiros. Ex: 70. Em altura coloque ponto em vez de virgula. Ex: 1.70">Dica (passe o mouse) </div>
+<p>
+
+</p>
+
+  <form action =""id ="calculo"> 
+<label for = "peso">Peso: </label> 
+<input type="text" id = "peso">
+<label for = "altura">Altura: </label>
+<input type="text" id = "altura">
+
+
+<button type="button">Enviar</button>
+  </form>
+
+  <div class="resposta"id="respostaIMC"> </div>
+
+  </section>
+  <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
